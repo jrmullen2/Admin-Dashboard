@@ -1,0 +1,12 @@
+body {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 25% 75%;
+}
+header {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+#sidebar {
+  background-color: lightsteelblue;
+}
