@@ -8,51 +8,82 @@
   </head>
   <body>
     <div id="header">
-      <div id="searchBar">
-        <div id="searchIcon">
-          <img src="images/searchIcon.png" alt="Search Icon" />
+      <div id="headerLeft">
+        <div id="searchBar">
+          <div id="searchIcon">
+            <img src="images/searchIcon.png" alt="Search Icon" />
+          </div>
+          <input type="text" id="bar" />
         </div>
-        <div id="bar"></div>
+        <div id="greeting">
+          <div id="largeProfile">
+            <img
+              src="images/profilePic1.jpg"
+              alt="Enlarged Profile Picture"
+              id="bigPicture"
+            />
+          </div>
+          <div id="greetingText">
+            <div id="greetingText1">Hi there,</div>
+            <div id="greetingText2">Piolo Rosario (@piolo)</div>
+          </div>
+        </div>
       </div>
-      <div id="greeting">
-        <div id="largeProfile">
-          <img src="" alt="Enlarged Profile Picture" />
+      <div id="headerRight">
+        <div id="profileInfo">
+          <div id="notification">
+            <img
+              src="images/3005771_alarm_bell_notification_ring_icon.png"
+              alt="notification bell"
+              id="bell"
+            />
+          </div>
+          <div id="infoPic">
+            <img
+              src="images/profilePic1.jpg"
+              alt="profile picture"
+              class="profilePic"
+            />
+          </div>
+          <div id="pName">Piolo Rosario</div>
         </div>
-        <div id="greetingText">
-          <div id="greetingText1">Hi there,</div>
-          <div id="greetingText2">Piolo Rosario (@piolo)</div>
+        <div id="userActions">
+          <button id="new">New</button>
+          <button id="upload">Upload</button>
+          <button id="share">Share</button>
         </div>
-      </div>
-      <div id="profileInfo">
-        <div id="notification">
-          <img
-            src="images/3005771_alarm_bell_notification_ring_icon.png"
-            alt="notification bell"
-          />
-        </div>
-        <div class="profilePic"><img alt="profile picture" /></div>
-        <div id="name">Piolo Rosario</div>
-      </div>
-      <div id="userActions">
-        <button id="new">New</button>
-        <button id="upload">Upload</button>
-        <button id="share">Share</button>
       </div>
     </div>
     <div id="sidebar">
       <div id="section1">
-        <div id="logoContainer"><img src="" alt="Logo" /></div>
+        <div id="logoContainer">
+          <img src="images/dashboard.png" alt="Logo" id="dashboardLogo" />
+        </div>
         <div id="logoText">Dashboard</div>
       </div>
       <div id="section2">
         <div class="listIcons">
           <ul>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
+            <li><img src="images/home.png" alt="Home Icon" class="icon" /></li>
+            <li>
+              <img src="images/profile.png" alt="Profile Icon" class="icon" />
+            </li>
+            <li>
+              <img src="images/messages.png" alt="Messages Icon" class="icon" />
+            </li>
+            <li>
+              <img src="images/history.png" alt="History Icon" class="icon" />
+            </li>
+            <li>
+              <img src="images/tasks.png" alt="Tasks Icon" class="icon" />
+            </li>
+            <li>
+              <img
+                src="images/communities.png"
+                alt="Communities Icon"
+                class="icon"
+              />
+            </li>
           </ul>
         </div>
         <div class="listLinks">
@@ -69,9 +100,15 @@
       <div id="section3">
         <div class="listIcons">
           <ul>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
-            <li><img src="" alt="" /></li>
+            <li>
+              <img src="images/settings.png" alt="Settings Icon" class="icon" />
+            </li>
+            <li>
+              <img src="images/support.png" alt="Support Icon" class="icon" />
+            </li>
+            <li>
+              <img src="images/privacy.png" alt="Privacy Icon" class="icon" />
+            </li>
           </ul>
         </div>
         <div class="listLinks">
