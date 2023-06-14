@@ -196,6 +196,73 @@ a {
 }
 #left {
   grid-column: 1;
+  display: grid;
+  grid-template-rows: 1fr 20fr;
+  background-color: #cbd5e1;
+}
+#lTitle {
+  grid-row: 1;
+  display: flex;
+  align-items: end;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 2%;
+}
+#cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 0.2fr));
+  column-gap: 2%;
+  row-gap: 2%;
+  grid-row: 2;
+  padding: 2%;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 30fr;
+  grid-template-rows: 3fr 1fr;
+  background-color: white;
+  box-shadow: 0px 5px 5px gainsboro;
+  max-height: 250px;
+  border-radius: 0.5rem;
+}
+.yellowBar {
+  background-color: goldenrod;
+  grid-column: 1;
+  grid-row: 1 / 3;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.texts {
+  grid-column: 2;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+}
+.text1 {
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.text2 {
+  color: darkgrey;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.cardIcons {
+  grid-column: 2;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5%;
+  padding-right: 5%;
+}
+.cardIcon {
+  max-width: 25px;
+  max-height: 25px;
 }
 #right {
   grid-column: 2;
