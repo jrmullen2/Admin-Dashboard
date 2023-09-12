@@ -319,20 +319,15 @@ a {
 #rCard2 {
   grid-row: 4 / 5;
   grid-column: 2 / 3;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  padding-left: 10%;
 }
 #profileImages {
-  place-items: center;
-}
-#profileNames {
-  align-items: center;
-}
-#profileImages,
-#profileNames {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
+  place-items: center;
+}
+.profileBundle {
+  display: flex;
+  gap: 20%;
 }
 #rCard1,
 #rCard2 {
